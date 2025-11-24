@@ -1,6 +1,7 @@
 function addTask() {
     let input = document.getElementById("taskInput");
     let list = document.getElementById("taskList");
+// Feature: Add new tasks to the list
 
     if (input.value.trim() === "") return;
 
